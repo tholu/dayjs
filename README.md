@@ -1,13 +1,13 @@
-# @nathanchase/nuxt-dayjs-module
+# @tholu/nuxt-dayjs-module
 
-This is a Nuxt 3 compatible module built with the official Nuxt 3 [module-builder](https://github.com/nuxt/module-builder) for [dayjs](https://github.com/iamkun/dayjs/). This is meant as a Nuxt 3 version of [dayjs-module](https://github.com/nuxt-community/dayjs-module) to satisfy [Nuxt 3 support](https://github.com/nuxt-community/dayjs-module/issues/376).
+**Forked from @nathanchase/nuxt-dayjs-module for dependency updates.** This is a Nuxt 3 compatible module built with the official Nuxt 3 [module-builder](https://github.com/nuxt/module-builder) for [dayjs](https://github.com/iamkun/dayjs/). This is meant as a Nuxt 3 version of [dayjs-module](https://github.com/nuxt-community/dayjs-module) to satisfy [Nuxt 3 support](https://github.com/nuxt-community/dayjs-module/issues/376).
 
 Usage:
 ```js
 // ./nuxt.config.ts
 export default defineNuxtConfig({
   modules: [
-    '@nathanchase/nuxt-dayjs-module'
+    '@tholu/nuxt-dayjs-module'
   ]
   ...
 });
@@ -25,9 +25,9 @@ dayjs: {
 }
 ```
 
-See [/playground/app.vue](https://github.com/nathanchase/dayjs/blob/master/playground/app.vue) for working examples.
+See [/playground/app.vue](https://github.com/tholu/dayjs/blob/master/playground/app.vue) for working examples.
 
-On npm: [https://www.npmjs.com/package/@nathanchase/nuxt-dayjs-module](https://www.npmjs.com/package/@nathanchase/nuxt-dayjs-module)
+On npm: [https://www.npmjs.com/package/@tholu/nuxt-dayjs-module](https://www.npmjs.com/package/@tholu/nuxt-dayjs-module)
 
 ## Development
 

@@ -1,23 +1,23 @@
 {
-  "name": "@nathanchase/nuxt-dayjs-module",
-  "version": "1.0.14",
+  "name": "@tholu/nuxt-dayjs-module",
+  "version": "2.0.0",
   "private": false,
-  "description": "This is a Nuxt 3 compatible module built with the official Nuxt 3 (module-builder)(https://github.com/nuxt/module-builder) for (dayjs)(https://github.com/iamkun/dayjs/).",
+  "description": "Forked from @nathanchase/nuxt-dayjs-module for dependency updates. This is a Nuxt 3 compatible module built with the official Nuxt 3 (module-builder)(https://github.com/nuxt/module-builder) for (dayjs)(https://github.com/iamkun/dayjs/).",
   "keywords": [
     "dayjs",
     "nuxt",
     "nuxt3"
   ],
-  "homepage": "https://github.com/nathanchase/dayjs#readme",
+  "homepage": "https://github.com/tholu/dayjs#readme",
   "bugs": {
-    "url": "https://github.com/nathanchase/dayjs/issues"
+    "url": "https://github.com/tholu/dayjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanchase/dayjs.git"
+    "url": "git+https://github.com/tholu/dayjs.git"
   },
   "license": "MIT",
-  "author": "Nathan Chase",
+  "author": "Thomas Lutz",
   "type": "module",
   "exports": {
     ".": {
@@ -37,14 +37,14 @@
     "prepack": "nuxt-module-build"
   },
   "dependencies": {
-    "@nuxt/kit": "3.3.3",
-    "dayjs": "^1.11.5"
+    "@nuxt/kit": "3.13.2",
+    "dayjs": "^1.11.13"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
-    "@types/node": "18.15.11",
+    "@types/node": "22.7.5",
     "eslint": "latest",
-    "nuxt": "^3.0.0-rc.9"
+    "nuxt": "^3.13.2"
   }
 }
