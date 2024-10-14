@@ -1,6 +1,6 @@
 {
   "name": "@tholu/nuxt-dayjs-module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": false,
   "description": "Forked from @nathanchase/nuxt-dayjs-module for dependency updates. This is a Nuxt 3 compatible module built with the official Nuxt 3 (module-builder)(https://github.com/nuxt/module-builder) for (dayjs)(https://github.com/iamkun/dayjs/).",
   "keywords": [
